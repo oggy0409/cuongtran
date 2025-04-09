@@ -1,0 +1,31 @@
+/* Tùy chỉnh giao diện game */
+#game canvas {
+    border: 2px solid #333;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    background-color: #000;
+}
+
+/* Timer */
+#speedrun-timer {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: white;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 5px;
+    border-radius: 3px;
+}
+
+/* Leaderboard */
+#speedrun-leaderboard {
+    position: absolute;
+    top: 50px;
+    left: 10px;
+    color: white;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    border-radius: 3px;
+    max-height: 200px;
+    overflow-y: auto;
+}
